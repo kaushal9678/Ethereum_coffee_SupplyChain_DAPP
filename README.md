@@ -110,8 +110,10 @@ Above command returns following output
 ![truffle test](images/metamask_transaction_history1.png)
 ![truffle test](images/metamask_transaction_history2.png)
 
-Transaction on EtherScan for following transaction hash ```  0xb55b1c36bd5c1ce9f8fc9700c6b9ea1e57c4b7bf5eb782f69ad95ae10ad80e95 ```
-![truffle test](image/etherScan_transaction)
+Transaction on EtherScan for following transaction hash 
+```  0xb55b1c36bd5c1ce9f8fc9700c6b9ea1e57c4b7bf5eb782f69ad95ae10ad80e95 ```
+
+![truffle test](image/etherScan_transaction.png)
 
 
 ## Built With
