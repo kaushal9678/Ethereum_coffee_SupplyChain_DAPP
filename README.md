@@ -113,7 +113,7 @@ Above command returns following output
 Below image is the transaction on EtherScan for following transaction hash 
 * 0xb55b1c36bd5c1ce9f8fc9700c6b9ea1e57c4b7bf5eb782f69ad95ae10ad80e95 *
 
-![truffle test](images/etherscan_transaction.png)
+![truffle test](https://imgur.com/NJu0kvN)
 
 
 
