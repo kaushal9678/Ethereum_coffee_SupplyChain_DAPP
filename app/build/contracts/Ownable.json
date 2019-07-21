@@ -82,9 +82,9 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "//pragma solidity ^0.4.24;\npragma solidity >=0.4.24;\n\n/// Provides basic authorization control\ncontract Ownable {\n    address private origOwner;\n\n    // Define an Event\n    event TransferOwnership(address indexed oldOwner, address indexed newOwner);\n\n    /// Assign the contract to an owner\n    constructor () internal {\n        origOwner = msg.sender;\n        emit TransferOwnership(address(0), origOwner);\n    }\n\n    /// Look up the address of the owner\n    function owner() public view returns (address) {\n        return origOwner;\n    }\n\n    /// Define a function modifier 'onlyOwner'\n    modifier onlyOwner() {\n        require(isOwner());\n        _;\n    }\n\n    /// Check if the calling address is the owner of the contract\n    function isOwner() public view returns (bool) {\n        return msg.sender == origOwner;\n    }\n\n    /// Define a function to renounce ownerhip\n    function renounceOwnership() public onlyOwner {\n        emit TransferOwnership(origOwner, address(0));\n        origOwner = address(0);\n    }\n\n    /// Define a public function to transfer ownership\n    function transferOwnership(address newOwner) public onlyOwner {\n        _transferOwnership(newOwner);\n    }\n\n    /// Define an internal function to transfer ownership\n    function _transferOwnership(address newOwner) internal {\n        require(newOwner != address(0));\n        emit TransferOwnership(origOwner, newOwner);\n        origOwner = newOwner;\n    }\n}\n",
-  "sourcePath": "/Users/virtualstacks/Documents/Udacity Semester 2/nd1309-Project-6b-Example-Template-master/project-6/contracts/coffeecore/Ownable.sol",
+  "sourcePath": "/Users/virtualstacks/Documents/Udacity Semester 2/Ethereum_Coffee_SupplyChain_DAPP/app/contracts/coffeecore/Ownable.sol",
   "ast": {
-    "absolutePath": "/Users/virtualstacks/Documents/Udacity Semester 2/nd1309-Project-6b-Example-Template-master/project-6/contracts/coffeecore/Ownable.sol",
+    "absolutePath": "/Users/virtualstacks/Documents/Udacity Semester 2/Ethereum_Coffee_SupplyChain_DAPP/app/contracts/coffeecore/Ownable.sol",
     "exportedSymbols": {
       "Ownable": [
         1481
@@ -1446,7 +1446,7 @@
     "src": "27:1412:7"
   },
   "legacyAST": {
-    "absolutePath": "/Users/virtualstacks/Documents/Udacity Semester 2/nd1309-Project-6b-Example-Template-master/project-6/contracts/coffeecore/Ownable.sol",
+    "absolutePath": "/Users/virtualstacks/Documents/Udacity Semester 2/Ethereum_Coffee_SupplyChain_DAPP/app/contracts/coffeecore/Ownable.sol",
     "exportedSymbols": {
       "Ownable": [
         1481
@@ -2813,7 +2813,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.6",
-  "updatedAt": "2019-07-21T06:13:56.925Z",
+  "updatedAt": "2019-07-21T09:15:56.080Z",
   "devdoc": {
     "methods": {}
   },

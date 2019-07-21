@@ -1,5 +1,5 @@
-pragma solidity ^0.4.24;
-//pragma solidity >=0.4.24;
+//pragma solidity ^0.4.24;
+pragma solidity >=0.4.24;
 import '../coffeecore/Ownable.sol';
 import '../coffeeaccesscontrol/ConsumerRole.sol';
 import '../coffeeaccesscontrol/RetailerRole.sol';
