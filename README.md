@@ -102,7 +102,7 @@ Above command returns following output
 
 ![truffle test](images/rinkeby_migrate.png)
 
-## * Final output after deploying supplychain solution to Rinkeby network
+##  Final output after deploying supplychain solution to Rinkeby network
 ![truffle test](images/rinkeby_final.png)
 
 * While doing transaction on Rinkeby network following are the MetaMask history
@@ -110,11 +110,10 @@ Above command returns following output
 ![truffle test](images/metamask_transaction_history1.png)
 ![truffle test](images/metamask_transaction_history2.png)
 
+Below image is the transaction on EtherScan for following transaction hash 
+* 0xb55b1c36bd5c1ce9f8fc9700c6b9ea1e57c4b7bf5eb782f69ad95ae10ad80e95 *
 
 ![truffle test](images/etherscan_transaction.png)
-
-Above image is the transaction on EtherScan for following transaction hash 
-```  0xb55b1c36bd5c1ce9f8fc9700c6b9ea1e57c4b7bf5eb782f69ad95ae10ad80e95 ```
 
 
 
