@@ -86,6 +86,12 @@ In a separate terminal window, launch the DApp:
 npm run dev
 ```
 
+When you want to deploy your app to Rinkeby, you need to create a project in `Infura`. 
+[Infura](https://infura.io/project/)
+> After creating project use `infuraKey` of newly created project.
+
+> For mnemonic go to `Metamask` settings and in `advanced` option click on `Reveal seeds`.
+
 ## Deploy to Rinkeby Network
 use following command
 
