@@ -73,8 +73,9 @@ truffle migrate
 Your terminal should look something like this:
 
 ![truffle test](images/truffle_migrate.png)
-```
+
 Test smart contracts:
+
 ```
 truffle test
 ```
@@ -98,10 +99,10 @@ truffle migrate --reset --network rinkeby
 ```
 Above command returns following output
 
-```
+
 ![truffle test](images/rinkeby_migrate.png)
 
-## * Final output after deploying supplychain solution to rinkeby network
+## * Final output after deploying supplychain solution to Rinkeby network
 ![truffle test](images/rinkeby_final.png)
 
 * While doing transaction on Rinkeby network following are the MetaMask history
@@ -109,6 +110,8 @@ Above command returns following output
 ![truffle test](images/metamask_transaction_history1.png)
 ![truffle test](images/metamask_transaction_history2.png)
 
+Transaction on EtherScan for following transaction hash ```  0xb55b1c36bd5c1ce9f8fc9700c6b9ea1e57c4b7bf5eb782f69ad95ae10ad80e95 ```
+![truffle test](image/etherScan_transaction)
 
 
 ## Built With
@@ -119,9 +122,6 @@ to make the web faster, safer, and more open.
 * [Truffle Framework](http://truffleframework.com/) - Truffle is the most popular development framework for Ethereum with a mission to make your life a whole lot easier.
 
 
-## Authors
-
-See also the list of [contributors](https://github.com/your/project/contributors.md) who participated in this project.
 
 ## Acknowledgments
 
